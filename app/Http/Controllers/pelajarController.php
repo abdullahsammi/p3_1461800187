@@ -20,8 +20,8 @@ class AbsenController extends Controller
 public function store  (Request $request){
     
     pelajar ::create {(
-        'nbi' =>$request->nbi,
-        nama_pljr=>$request->nama_pljr,
+        'nbi' ->$request->nbi,
+        nama_pljr->$request->nama_pljr,
     )};
     return redirect('pelajar');
 
